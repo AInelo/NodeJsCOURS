@@ -25,3 +25,33 @@ le package.json est ce que le npm lit pour savoir quoi installer pour notre proj
 
 #  npm i nodemon -D
  Pour ajouter nodemon comme une devDependencies
+
+# Ajout des commandes dans scripts dans le package.json
+ A ce niveau nous devrons ajouter des éléments à l'objet scripts du 
+ package.json et on : 
+
+    "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+
+et là on peut  exécuter les commandes  *"npm start"* et *"npm run dev"*
+
+# le package uuid 
+ Permet d'attribuer un id à chaque évènement
+
+# "uuid": "^9.0.1"
+Quand on garde les éléments comme cela, ils ont à vouloir se mettre à jour 
+Donc pour éviter cela, on retire "^" et cela devient 
+            *"uuid": "9.0.1"* et
+# "uuid": "*" 
+ Signifie, utilise toutes les version dernirès en faisant toujours une mise à jour
+
+# npm i uui@la_version_choisie
+ Permet d'avoir la version choisie en installation 
+
+# npm update
+ Permet de faire la mise de toutes les mise à jours disponible
+
+# npm rm nodemon -D 
+Permet de désinstaller la dépendance, mais il reste dans le script du package.json en écritures
