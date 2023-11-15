@@ -18,6 +18,11 @@ fs.writeFile(path.join(__dirname, 'files', 'reply.txt'), 'Nice to meet you', (er
     console.log('Write complete')
 })
 
+fs.appendFile(path.join(__dirname, 'files', 'test.txt'), 'Testing test', (err) => {
+    if (err) throw err;
+    console.log('Append complete')
+})
+
 
 // exit on uncaught errors
 process.on('uncaughtException', err => {
