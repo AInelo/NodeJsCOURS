@@ -52,9 +52,23 @@ const server = http.createServer((req, res) => {
                     : path.join(__dirname, req.url);
 
     // makes .html extension not required in the browser
+    if (!extension && req.url.slice(-1) !== '/') filePath += '.html';
+
+    const fileExists = fs.existsSync(filePath);
+
+    if (fileExists) {
+        // serve the file 
+    } else {
+        // 404
+        // 301 redirect
+        console.log(path.parse(filePath));
+    }
 
 
 });
+
+
+
 
 server.listen(PORT, () => console.log(`Le serveur tourne sur ${PORT}`));
 

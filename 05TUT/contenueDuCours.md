@@ -8,3 +8,7 @@
  
  Dans cette commande, req = requête et res = réponse 
 
+#  ON APPLIQUE 
+les fonctions pour le serveur ne puisse servir que des fichiers qui existe réellement
+si un fichiers n'existe pas, le serveur renvoi erreur 404 ou 301
+
