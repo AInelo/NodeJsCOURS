@@ -12,7 +12,33 @@ const myEmitter = new Emitter();
 
 const PORT = process.env.PORT || 3500;
 
+const serveFile = async (filePath, contentType, response) => {
+    try {
+        const rawData = await fsPromises.readFile(
+            filePath,
+            !contentType.includes('image') ? 'utf8' : ''
+        );
+        const data = contentType === 'application/json'
+            ? JSON.parse(rawData) : rawData;
+
+
+        response.writeHead(
+            filePath.includes('404.html') ? 404 : 200,
+            { 'content-Type': contentType });
+        response.end(
+            contentType === 'application/json' ? JSON.
+                stringify(data) : data
+        );
+    } catch (err) {
+        console.log(err);
+        response.statusCode = 500;
+        response.end();
+    }
+}
+
+
 const server = http.createServer((req, res) => {
+
     console.log(req.url, req.method);
 
     const extension = path.extname(req.url)
@@ -51,17 +77,33 @@ const server = http.createServer((req, res) => {
                     ? path.join(__dirname, 'views', req.url)
                     : path.join(__dirname, req.url);
 
-    // makes .html extension not required in the browser
+    // makes .html extension not required in the browser/ E
+    // en fait on ajout à toute les requête sans extension l'extension .html
     if (!extension && req.url.slice(-1) !== '/') filePath += '.html';
 
     const fileExists = fs.existsSync(filePath);
 
     if (fileExists) {
         // serve the file 
+        serveFile(filePath, contentType, res);
+
     } else {
         // 404
         // 301 redirect
-        console.log(path.parse(filePath));
+        switch (path.parse(filePath).base) {
+            case 'old-page.html':
+                res.writeHead(301, { 'Location': '/new-page.html' });
+                res.end();
+                break;
+            case 'www-page.html':
+                res.writeHead(301, { 'Location': '/' });
+                res.end();
+                break;
+            default:
+                // Fournir une réponse 404
+                serveFile(path.join(__dirname, 'views', '404.html'), 'text/html', res);
+        };
+
     }
 
 
