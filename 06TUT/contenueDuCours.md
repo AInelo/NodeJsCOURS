@@ -24,6 +24,7 @@ app.listen(PORT, () => console.log(`Le serveur tourne sur ${PORT}`));
 ```
 
 # Pour faire de la redirection optionnelle :
+C'est à dire qu'on peut mettre /index ou /index.html, on aura les mêmes résultats
 
 ```bash
 app.get('^/$|/index(.html)?', (req, res) => {
