@@ -22,3 +22,12 @@ ce sont les dépences normal
 app.listen(PORT, () => console.log(`Le serveur tourne sur ${PORT}`));
 
 ```
+
+# Pour faire de la redirection optionnelle :
+
+```bash
+app.get('^/$|/index(.html)?', (req, res) => {
+    // res.sendFile('./views/index.html', { root: __dirname });
+    res.sendFile(path.join(__dirname, 'views', 'index.html'));
+});
+```
