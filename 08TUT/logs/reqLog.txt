@@ -59,3 +59,15 @@
 2023/12/03	11:10:01	635bcd9a-2295-4354-9162-fb1df06f3d43	GET	undefined	/img/img1.jpg
 2023/12/03	11:10:08	539419af-5688-4dfb-a577-02675cb2ead1	GET	undefined	/index
 2023/12/03	11:10:08	5a64a8ae-7f78-4bce-8140-e96d36414651	GET	undefined	/css/style.css
+2023/12/03	11:28:36	6df9496a-5977-45df-9091-de1448864825	GET	undefined	/api/employees
+2023/12/03	11:29:11	6e6a417c-ca15-495f-91e8-738048bc8048	GET	undefined	/employees
+2023/12/03	11:30:19	c5cffd75-7262-4f56-8349-15984f6bd8e1	POST	undefined	/employees
+2023/12/03	11:31:11	10ae6b02-9764-4156-a870-2bca9f93a2db	GET	undefined	/employees
+2023/12/03	11:32:54	bc354aae-8dac-4f76-993d-3b19e7dbb320	POST	undefined	/employees
+2023/12/03	11:35:08	1da99d22-b114-4d0d-9ae6-98754ff5af8f	POST	undefined	/employees
+2023/12/03	11:38:05	0b778c38-dac9-4cbe-b378-3bbabff40b54	GET	undefined	/employees
+2023/12/03	11:38:52	9da9468b-f235-469f-839b-bf5180e17eb2	POST	undefined	/employees
+2023/12/03	11:40:13	1acf4763-2d3d-4f36-b6c7-277ee044087c	PUT	undefined	/employees
+2023/12/03	11:40:32	cc1445e0-dbee-44ed-a530-3cb3340f9320	PUT	undefined	/employees
+2023/12/03	11:42:15	3a79112f-93fc-4eed-a460-8b8cf5513dbc	DELETE	undefined	/employees
+2023/12/03	11:42:24	4ed53213-db47-443b-91f6-4b9cc5fab471	GET	undefined	/employees/1

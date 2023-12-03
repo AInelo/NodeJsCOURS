@@ -11,6 +11,7 @@ const express = require('express');
 const router = express.Router();
 const path = require('path');
 
+...
 
 module.exports = router; 
 ```
@@ -31,4 +32,6 @@ app.use('/subdir', express.static(path.join(__dirname, '/public')));
 et on crée les routes dans le fichier root.js
 
 ## Mise en place d'une REST API
-1. ON crée dans le dossier **"routes"**, le dossier **"api"** et pour ce d'employees, on crée **employees.js** dans **"api"**
+1. On crée dans le dossier **"routes"**, le dossier **"api"** et pour ce cas d'employees, on crée **employees.js** dans **"api"**
+2. Dans le dossier **"data"**, on créer le fichier employees.json
+3. On teste  les routes **http://localhost:3500/employees/**  avec Postman
