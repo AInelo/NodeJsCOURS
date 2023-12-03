@@ -8,7 +8,7 @@
  C'est la commande qu'il faut pour installer Express 
  comme une dépendance 
 
-# Voici les dépences à ajouter avant le projet 
+# Voici les dépendances à ajouter avant le projet 
 ```bash
 const express = require('express');
 const app = express();
