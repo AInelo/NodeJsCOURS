@@ -42,7 +42,7 @@ app.use('/', express.static(path.join(__dirname, '/public')));
 app.use('/subdir', express.static(path.join(__dirname, '/public')));
 
 
-// Pour activer les routes mise dans le fichier des root.js
+// Pour activer les routes mise dans le fichier des root.js et dans le dossier "Routes"
 app.use('/', require('./routes/root'));
 
 app.use('/subdir', require('./routes/subdir'));
