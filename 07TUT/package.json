@@ -1,7 +1,7 @@
 {
-  "name": "06tut",
+  "name": "07tut",
   "version": "1.0.0",
-  "description": "Express tutorial",
+  "description": "Middleware tutorial",
   "main": "index.js",
   "scripts": {
     "start": "node server",
