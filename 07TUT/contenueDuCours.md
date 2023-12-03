@@ -22,10 +22,42 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, '/public')));
 ```
 
-## Ce n'est que pour créer un middleware que nous 
+## Ce n'est que pour créer un middleware que nous appliquons next()
 ```bash
 app.use((req, res, next) => {
     console.log(`${req.method} ${req.path}`);
     next(); 
 });
+```
+
+## On crée un logger pour suivre les évènements avec ceci 
+```bash
+app.use((req, res, next) => {
+    logEvents(`${req.method}\t${req.headers.origin}\t${req.url}`, 'reqLog.txt');
+    console.log(`${req.method} ${req.path}`);
+    next();
+});
+```
+
+## La librairie cors
+CORS est un mécanisme de sécurité utilisé par les navigateurs web pour contrôler les requêtes HTTP entre différentes origines (domaines).
+```bash
+npm i cors
+```
+
+## Dans ce whiteliste est mis tout les liens avaec lesquels notre serveur peut communiquer 
+```bash
+const whiteliste = ['https://www.google.com', 'http://127.0.0.1:5500', 'http://localhost:3500'];
+const corsOption = {
+    origin: (origin, callback) => {
+        if (whiteliste.indexOf(origin) !== -1) {
+            callback(null, true)
+        } else {
+            callback(new Error('Not allowed by CORS'));
+        }
+    },
+    optionsSucessStatus: 200
+}
+
+app.use(cors(corsOption));
 ```
