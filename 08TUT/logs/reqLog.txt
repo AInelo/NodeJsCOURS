@@ -49,3 +49,13 @@
 2023/12/03	10:54:32	0afbc6c0-dd12-46b1-bc53-88a3fa7f6c79	GET	undefined	/css/style.css
 2023/12/03	10:58:29	7bb9be23-8fbf-4bb8-87ae-21796a58456a	GET	undefined	/subdir/dave
 2023/12/03	10:58:30	619f817c-e3bd-49b5-a214-820afc4fe33b	GET	undefined	/subdir/css/style.css
+2023/12/03	11:09:06	afd53663-0672-4ebc-b3fc-6cd3ce6e9671	GET	undefined	/
+2023/12/03	11:09:06	ec553a43-941a-49b1-b010-86562b81a0ee	GET	undefined	/css/style.css
+2023/12/03	11:09:29	527c67fc-4c92-4634-b69a-188bd6adb5ed	GET	undefined	/new-page.html
+2023/12/03	11:09:29	a63792d3-0b52-490a-90a6-9e32070aa135	GET	undefined	/css/style.css
+2023/12/03	11:09:29	7e493460-87ba-42c8-a225-2270b740c8ca	GET	undefined	/img/img1.jpg
+2023/12/03	11:10:01	cca34c1a-1dd4-499f-a244-c384f0a39b0f	GET	undefined	/new-page.html
+2023/12/03	11:10:01	0bea02e4-e62d-46d7-b541-1f3c05a006ef	GET	undefined	/css/style.css
+2023/12/03	11:10:01	635bcd9a-2295-4354-9162-fb1df06f3d43	GET	undefined	/img/img1.jpg
+2023/12/03	11:10:08	539419af-5688-4dfb-a577-02675cb2ead1	GET	undefined	/index
+2023/12/03	11:10:08	5a64a8ae-7f78-4bce-8140-e96d36414651	GET	undefined	/css/style.css

@@ -28,3 +28,7 @@ app.use('/', express.static(path.join(__dirname, '/public')));
 ```bash
 app.use('/subdir', express.static(path.join(__dirname, '/public')));
 ```
+et on crée les routes dans le fichier root.js
+
+## Mise en place d'une REST API
+1. ON crée dans le dossier **"routes"**, le dossier **"api"** et pour ce d'employees, on crée **employees.js** dans **"api"**
