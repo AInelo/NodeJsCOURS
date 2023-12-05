@@ -9,3 +9,7 @@ C'est un modèle architectural largement utilisé dans le développement de logi
 **Vue :** Gère l'interface utilisateur et l'affichage des données.
 **Contrôleur :** Gère les interactions de l'utilisateur, traite les entrées, met à jour le modèle et actualise la vue.
 
+## Que fait-on ? 
+Dans ce cours, nous allons mettre en pratique le MVC en créant des dossiers 
+**controllers** : qui contiendra les .js de méthode
+**model**
