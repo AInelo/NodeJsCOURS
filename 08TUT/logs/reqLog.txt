@@ -83,3 +83,12 @@
 2024/01/02	13:39:20	167e4e95-8ffe-4701-9d21-33f06553450f	GET	undefined	/employees
 2024/01/02	13:39:39	177f99f7-7b9d-47d1-90b8-33d7be36a409	POST	undefined	/employees
 2024/01/02	13:39:44	290bbe3a-2eae-4b06-b58e-6aabc4e49206	GET	undefined	/employees
+2024/01/02	13:44:59	6432ca1e-e0eb-4655-9c8c-1eed9e5f253a	GET	undefined	/css/style.css
+2024/01/02	13:45:06	8a7de3ae-525c-4b52-98e4-1791a2f6efbb	GET	undefined	/employees
+2024/01/02	13:45:14	c1368e8c-1402-40cd-adad-4fa38e1a839f	GET	undefined	/employees/3
+2024/01/02	13:45:50	223530d3-b449-4d01-8667-f4364202176e	GET	undefined	/employees
+2024/01/02	13:46:08	e378f32f-859d-4480-9fea-2191734b5694	GET	undefined	/employees
+2024/01/02	14:01:33	15c9bf8f-87d1-4586-a721-bef8a7f3f5c0	POST	undefined	/employees
+2024/01/02	14:01:42	1bea1c24-6b9c-4a87-b04a-27a5eefdc1fa	POST	undefined	/employees
+2024/01/02	14:03:08	adefb192-0371-4a6e-a96d-0b297db5d886	POST	undefined	/employees
+2024/01/02	14:03:42	4a6b7b9a-564f-4069-ab6d-a287a65aeb0a	POST	undefined	/employees
