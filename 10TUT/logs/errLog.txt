@@ -1,0 +1,6 @@
+2023/11/17	20:46:46	bdadceec-164f-43a1-889d-d4278ab306e0	TypeError: fsPromises.readFil is not a function
+2023/12/03	10:32:20	bf8d4bd3-ca85-4ed5-bfc9-63c70ba9473c	Error: Not allowed by CORS
+2023/12/03	10:52:17	68fed5f3-e50c-4bd8-8cbe-bca187322c19	Error: ENOENT: no such file or directory, stat '/home/ainelo23/Documents/NodeJsCOURS/08TUT/views/subdir/test.html'
+2023/12/03	11:30:19	eeb603b0-97bb-4f48-8a4b-a7aecf3fe67c	TypeError: req.json is not a function
+2023/12/03	11:32:54	a41253ee-bb86-4f73-b9a5-7881d22f185e	TypeError: req.json is not a function
+2023/12/03	11:40:13	7f9f0b76-eec8-455e-96e2-1718e5f76c2a	TypeError: req.json is not a function
