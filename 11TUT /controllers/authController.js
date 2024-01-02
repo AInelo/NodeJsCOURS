@@ -7,6 +7,7 @@ const userDB = {
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 require('dotenv').config();
+const path = require('path')
 const fsPromises = require('fs').promises;
 
 
@@ -26,16 +27,16 @@ const handleLogin = async (req, res) => {
         const accessToken = jwt.sign(
             {"usename": foundUser.username },
             process.env.ACCESS_TOKEN_SECRET,
-            { expiresIn: '30s' }
+            { expiresIn: '45s' }
         );
         const refreshToken = jwt.sign(
             {"usename": foundUser.username },
             process.env.REFRESH_TOKEN_SECRET,
             { expiresIn: '1d' }
         );
-        const otheUsers = userDB.users.filter(person => person.username !== foundUser.username);
+        const otherUsers = userDB.users.filter(person => person.username !== foundUser.username);
         const currentUser = {...foundUser, refreshToken};
-        usersDB.setUsers([...otherUsers, currentUser]);
+        userDB.setUsers([...otherUsers, currentUser]);
         await fsPromises.writeFile(
             path.join(__dirname, '..', 'model', 'users.json'),
             JSON.stringify(userDB.users)
