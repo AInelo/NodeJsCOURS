@@ -9,6 +9,7 @@ const errorHandler = require('./middleware/errorHandler');
 const PORT = process.env.PORT || 3500;
 
 
+
 // custom middleware loger 
 app.use(logger);
 
@@ -33,11 +34,9 @@ app.use('/', express.static(path.join(__dirname, '/public')));
 
 app.use('/', require('./routes/root'));
 
-
+app.use('/register', require('./routes/register'));
 
 app.use('/employees', require('./routes/api/employees'));
-
-
 
 // app.use('/')
 // DIFFERENCE ENTRE APP.USE ET APP.ALL
@@ -57,4 +56,3 @@ app.use(errorHandler);
 app.listen(PORT, () => console.log(`Le serveur tourne sur ${PORT}`));
 
 //myEmitter.emit('log', 'Log event emitted');
-

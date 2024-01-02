@@ -92,3 +92,13 @@
 2024/01/02	18:04:23	1b444dc8-94a7-41e8-b569-474215cf3f76	POST	undefined	/employees
 2024/01/02	18:04:36	212877e3-489e-42af-beab-c73e2c94b1d4	PUT	undefined	/employees
 2024/01/02	18:04:45	bb6718f0-eb30-4d9a-9d40-a127420b718e	DELETE	undefined	/employees
+2024/01/02	19:27:01	ffea1f8a-244e-4957-a5aa-ebb155c5278f	GET	undefined	/
+2024/01/02	19:27:01	622a21d4-f978-41c5-abd8-1e0b44b8a9bc	GET	undefined	/css/style.css
+2024/01/02	19:27:28	9ef194b3-4a0d-4f87-952a-4a1cbf8b1cbc	POST	undefined	/register
+2024/01/02	19:42:09	6f1a435a-4e13-45c3-9cef-7d08a2d2608d	GET	undefined	/employees/5
+2024/01/02	19:42:11	2710e082-19ac-4555-8f8b-6797594dff40	GET	undefined	/employees/5
+2024/01/02	19:42:12	5678ac1b-790f-4d7a-991c-2a706a2df649	GET	undefined	/employees/5
+2024/01/02	19:42:33	76b6a2d6-e7da-46ba-a051-e8557d678754	GET	undefined	/register
+2024/01/02	19:42:33	a2c5ac45-c662-492e-ba55-d8643133a39a	GET	undefined	/css/style.css
+2024/01/02	19:42:39	d116cf77-9a45-42b1-8571-c0df6b18dd0d	GET	undefined	/register
+2024/01/02	19:42:39	447652d5-d9a5-4719-9660-fd0ee4f8fbab	GET	undefined	/css/style.css
