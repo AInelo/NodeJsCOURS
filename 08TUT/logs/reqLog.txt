@@ -108,3 +108,5 @@
 2024/01/02	14:59:26	66d477b3-0873-4d72-afc1-1b75dda58c03	POST	undefined	/employees
 2024/01/02	15:01:43	ea566e15-17de-415d-9c09-cb25a7b20837	POST	undefined	/employees
 2024/01/02	15:08:00	7422d041-8da4-40b7-84c2-e6f972cce382	POST	undefined	/employees
+2024/01/02	15:22:32	f67f5da7-0513-40cb-83b9-3a137526019d	GET	undefined	/employees/4
+2024/01/02	15:22:48	e0d4b64e-5fa8-41ea-ab5b-d755bdd7cbbd	GET	undefined	/employees/5

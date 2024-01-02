@@ -13,3 +13,11 @@ C'est un modèle architectural largement utilisé dans le développement de logi
 Dans ce cours, nous allons mettre en pratique le MVC en créant des dossiers 
 **controllers** : qui contiendra les .js de méthode
 **model**
+
+## Dans le dossier controllers
+Dans le dossier controlleurs, on met toutes les fonctions de CRUD
+CREATE 
+UPDATE
+USE
+DELETE
+Pour qu'ils soient utilisé dans le routes/api/employees.js
