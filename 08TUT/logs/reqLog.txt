@@ -92,3 +92,13 @@
 2024/01/02	14:01:42	1bea1c24-6b9c-4a87-b04a-27a5eefdc1fa	POST	undefined	/employees
 2024/01/02	14:03:08	adefb192-0371-4a6e-a96d-0b297db5d886	POST	undefined	/employees
 2024/01/02	14:03:42	4a6b7b9a-564f-4069-ab6d-a287a65aeb0a	POST	undefined	/employees
+2024/01/02	14:20:25	bcfdfbbc-7c14-4102-a1bf-bba114a3ba69	POST	undefined	/employees
+2024/01/02	14:23:07	d7c60d4a-c843-4bb1-8c92-d7c51c380fcd	GET	undefined	/
+2024/01/02	14:23:07	adcabc39-2e44-49a4-bfc1-6cc63c6902f2	GET	undefined	/css/style.css
+2024/01/02	14:23:28	97ce7349-ae74-40ef-b15f-76058d74b56b	POST	undefined	/employees
+2024/01/02	14:39:40	6c85cc15-2a01-47dc-a548-86b6fa71b6b2	POST	undefined	/employees
+2024/01/02	14:40:30	0f601327-1c01-4924-8af6-9524bd3472c0	POST	undefined	/employees
+2024/01/02	14:53:49	4de28566-8215-4a4f-b612-50a65eef4ccb	GET	undefined	/css/style.css
+2024/01/02	14:53:54	78667853-eada-44e8-a6cd-c0e6374a0501	GET	undefined	/employees
+2024/01/02	14:54:12	9d441671-c23f-4c68-8b48-50dcd2fe5496	GET	undefined	/employees
+2024/01/02	14:54:35	6664c57c-fb77-4c55-a426-87d8cf97da4e	GET	undefined	/employees
