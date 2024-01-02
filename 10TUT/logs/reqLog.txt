@@ -102,3 +102,8 @@
 2024/01/02	19:42:33	a2c5ac45-c662-492e-ba55-d8643133a39a	GET	undefined	/css/style.css
 2024/01/02	19:42:39	d116cf77-9a45-42b1-8571-c0df6b18dd0d	GET	undefined	/register
 2024/01/02	19:42:39	447652d5-d9a5-4719-9660-fd0ee4f8fbab	GET	undefined	/css/style.css
+2024/01/02	19:47:18	b4610c3a-d4dd-4ab3-835b-b19217569ae3	POST	undefined	/register
+2024/01/02	19:48:23	d15d8036-0649-4494-8bd9-0cb547ca0082	POST	undefined	/register
+2024/01/02	19:50:09	169f564a-a4ee-402e-bc44-f44337b57476	POST	undefined	/register
+2024/01/02	19:50:29	f76bcb38-1820-412f-b79d-6a4d5a1bcc18	POST	undefined	/register
+2024/01/02	19:51:47	3fd51110-c37f-489b-9eed-97d3ce6c74e2	POST	undefined	/register
