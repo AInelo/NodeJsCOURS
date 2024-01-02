@@ -16,8 +16,12 @@ Dans ce cours, nous allons mettre en pratique le MVC en créant des dossiers
 
 ## Dans le dossier controllers
 Dans le dossier controlleurs, on met toutes les fonctions de CRUD
-CREATE 
+CREATE
+
+READ
+
 UPDATE
-USE
+
 DELETE
+
 Pour qu'ils soient utilisé dans le routes/api/employees.js
