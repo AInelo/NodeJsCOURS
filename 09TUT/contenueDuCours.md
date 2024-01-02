@@ -26,3 +26,6 @@ UPDATE
 DELETE
 
 Pour qu'ils soient utilisé dans le routes/api/employees.js
+
+## Le fichier root.js 
+lui il contient toutes les routes menant vers les views 
