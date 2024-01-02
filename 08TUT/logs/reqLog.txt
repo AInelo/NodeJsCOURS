@@ -75,3 +75,11 @@
 2023/12/03	11:45:30	b8a6294d-685f-4919-9a3d-a94f05bdc9c8	GET	undefined	/employees/1
 2023/12/03	11:45:39	10bc48ad-95f4-41eb-adbb-088e79f0fb6b	GET	undefined	/employees/2
 2023/12/03	11:45:44	342799f8-41a0-48fb-9264-f813a0348f85	GET	undefined	/employees/3
+2024/01/02	13:33:43	9b59277f-1092-4a88-b5d7-648ba0ff791f	GET	undefined	/
+2024/01/02	13:33:44	04068fd1-ab4e-4937-befb-4cb22d75b04e	GET	undefined	/css/style.css
+2024/01/02	13:33:44	cd967996-f3a8-4336-8b26-bed6318dc584	GET	undefined	/favicon.ico
+2024/01/02	13:34:45	b02568ae-02c9-47c3-bf9e-99624f366fc1	GET	undefined	/
+2024/01/02	13:36:24	d20cf54e-ca8a-4ff0-891f-5a2736f10baf	GET	undefined	/employees
+2024/01/02	13:39:20	167e4e95-8ffe-4701-9d21-33f06553450f	GET	undefined	/employees
+2024/01/02	13:39:39	177f99f7-7b9d-47d1-90b8-33d7be36a409	POST	undefined	/employees
+2024/01/02	13:39:44	290bbe3a-2eae-4b06-b58e-6aabc4e49206	GET	undefined	/employees

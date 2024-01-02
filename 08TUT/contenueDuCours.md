@@ -35,3 +35,9 @@ et on crée les routes dans le fichier root.js
 1. On crée dans le dossier **"routes"**, le dossier **"api"** et pour ce cas d'employees, on crée **employees.js** dans **"api"**
 2. Dans le dossier **"data"**, on créer le fichier employees.json
 3. On teste  les routes **http://localhost:3500/employees/**  avec Postman
+
+## En quoi on utilise app.use
+il est utilisé pour ne pas définir les routes directement dans le server.js 
+```bash
+app.use('/employees', require('./routes/api/employees'));
+```
