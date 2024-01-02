@@ -6,6 +6,7 @@ const cors = require('cors');
 const corsOption = require('./config/corsOptions')
 const { logger } = require('./middleware/logEvents');
 const errorHandler = require('./middleware/errorHandler');
+const verifyJWT = require('../middleware/verifyJWT')
 const PORT = process.env.PORT || 3500;
 
 
@@ -38,6 +39,7 @@ app.use('/register', require('./routes/register'));
 
 app.use('/auth', require('./routes/auth'));
 
+app.use(verifyJWT);
 app.use('/employees', require('./routes/api/employees'));
 
 // app.use('/')
