@@ -1,6 +1,8 @@
 const data = {
     employees: require('../model/employees.json'),
-    setEmployees: function (data) { this.employees = data }
+    setEmployees: function (data) { 
+        this.employees = data 
+    }
 }
 
 const getAllEmployees = (req, res) => {
@@ -37,11 +39,23 @@ const updateEmployee = (req, res) => {
 }
 
 const deleteEmployee = (req, res) => {
-    res.json({ "id": req.body.id })
+
+    const employee = data.employees.find(emp => emp.id === parseInt(req.body.id));
+    if (!employee) {
+        return res.status(400).json({ "message": `Employee ID ${req.body.id} not found` });
+    }
+    const filteredArray = data.employees.filter(emp => emp.id !== parseInt(req.body.id));
+    data.setEmployees([...filteredArray]);
+    res.json(data.employees);
 }
 
 const getEmployee = (req, res) => {
-    res.json({ "id": req.params.id });
+    const employee = data.employees.find(emp => emp.id === parseInt(req.params.id));
+    if (!employee) {
+        return res.status(400).json({ "message": `Employee ID ${req.params.id} not found` });
+    }
+    res.json(employee);
+
 }
 
 module.exports = {
