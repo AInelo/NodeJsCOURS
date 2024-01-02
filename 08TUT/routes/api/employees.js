@@ -20,7 +20,15 @@ fs.readFile(filePath, 'utf8', (err, jsonString) => {
         return;
     }
     try {
-        data.employees = JSON.parse(jsonString);
+
+        const parsedData = JSON.parse(jsonString);
+        if (Array.isArray(parsedData.employees)) {
+            data.employees = parsedData.employees;
+        } else {
+            console.log('Invalid data format in employees.json');
+        }
+     //   data.employees = JSON.parse(jsonString);
+        
     } catch (err) {
         console.log('Error parsing JSON:', err);
     }
@@ -60,13 +68,17 @@ router.route('/')
         });
     })
     .delete((req, res) => {
-        res.json({ "id": req.body.id })
+        res.json({ 
+            "id": req.body.id 
+        })
     });
 
 
 router.route('/:id')
     .get((req, res) => {
-        res.json({ "id": req.params.id });
+        res.json({ 
+            "id": req.params.id 
+        });
     });
 
 

@@ -4,3 +4,5 @@
 2023/12/03	11:30:19	eeb603b0-97bb-4f48-8a4b-a7aecf3fe67c	TypeError: req.json is not a function
 2023/12/03	11:32:54	a41253ee-bb86-4f73-b9a5-7881d22f185e	TypeError: req.json is not a function
 2023/12/03	11:40:13	7f9f0b76-eec8-455e-96e2-1718e5f76c2a	TypeError: req.json is not a function
+2024/01/02	14:59:26	bdd2e1f6-302c-42d8-88bd-734e41914757	TypeError: data.employees.push is not a function
+2024/01/02	15:01:43	ca03f064-39d9-4b8e-a1b9-cc7c14e07f4c	TypeError: data.employees.push is not a function
