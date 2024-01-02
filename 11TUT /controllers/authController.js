@@ -20,8 +20,8 @@ const handleLogin = async (req, res) => {
     // evaluate password 
     const match = await bcrypt.compare(pwd, foundUser.password);
     if (match) {
+        
         // create JWTs
-
         const accessToken = jwt.sign(
             {"usename": foundUser.username },
             process.env.ACCESS_TOKEN_SECRET,
@@ -32,9 +32,16 @@ const handleLogin = async (req, res) => {
             process.env.REFRESH_TOKEN_SECRET,
             { expiresIn: '1d' }
         );
+        const otheUsers = userDB.users.filter(person => person.username !== foundUser.username);
+        const currentUser = {...foundUser, refreshToken};
+        usersDB.setUsers([...otherUsers, currentUser]);
+        await fsPromises.writeFile(
+            path.join(__dirname, '..', 'model', 'users.json'),
+            JSON.stringify(userDB.users)
+        );
+        res.cookie('jwt', refreshToken, { httpOnly: true, maxAge: 24 * 60 * 60 * 1000 })
 
-    
-        res.json({'sucess': `User ${user} is logged in!`});
+        res.json({ accessToken });
     } else {
         res.sendStatus(401);
     }
