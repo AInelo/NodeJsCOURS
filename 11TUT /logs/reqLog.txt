@@ -123,3 +123,8 @@
 2024/01/02	23:14:29	2f3f9e89-80df-4aa0-84ac-52f2d6e4d2cf	GET	undefined	/employees
 2024/01/02	23:16:10	88ea2e32-24a2-4a71-864c-87bd7d824521	POST	undefined	/auth
 2024/01/02	23:16:32	acacf756-e524-49c2-bf77-cf74c22d5653	GET	undefined	/employees
+2024/01/03	00:09:36	39ce17a5-1194-4231-ae2d-6a273f399e5a	POST	undefined	/register
+2024/01/03	00:09:43	6654eb50-d108-4abd-ba12-1b3c479405d7	POST	undefined	/auth
+2024/01/03	00:09:59	ffc3492b-91c2-4f81-85ad-0c97213a61e4	GET	undefined	/employees
+2024/01/03	00:23:49	defeb588-f56f-4c8f-8dd2-b1520748af57	POST	undefined	/auth
+2024/01/03	00:24:11	eb582212-ac12-45ff-a9e7-cc7db97d85bf	GET	undefined	/employees
