@@ -15,6 +15,8 @@ node
 require('crypto').randomBytes(64).toString('hex')
 ```
 
+
+
 ## JE RETIENS
 
 1. on crée un middleware pour générer un token lors de chaque authentification (c'est ce que fait la fonction verifyJWT)
