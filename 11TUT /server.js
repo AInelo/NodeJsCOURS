@@ -65,4 +65,3 @@ app.use(errorHandler);
 app.listen(PORT, () => console.log(`Le serveur tourne sur ${PORT}`));
 
 //myEmitter.emit('log', 'Log event emitted');
-
