@@ -128,3 +128,12 @@
 2024/01/03	00:09:59	ffc3492b-91c2-4f81-85ad-0c97213a61e4	GET	undefined	/employees
 2024/01/03	00:23:49	defeb588-f56f-4c8f-8dd2-b1520748af57	POST	undefined	/auth
 2024/01/03	00:24:11	eb582212-ac12-45ff-a9e7-cc7db97d85bf	GET	undefined	/employees
+2024/01/03	15:20:20	925b1218-a14b-4888-98b8-4d08db07e899	POST	undefined	/refresh
+2024/01/03	15:20:31	a0eaa789-d0b2-44c1-b713-7009d2cc6cbd	POST	undefined	/refresh
+2024/01/03	15:20:48	0c150382-2d07-43a8-8f13-2df28de9e94c	POST	undefined	/refresh
+2024/01/03	15:24:32	c6bac91d-382a-4065-b779-4571c2bcde57	GET	undefined	/refresh
+2024/01/03	15:24:50	9efdab64-0849-4e0f-ad2f-8aa61d7e58d7	GET	undefined	/refresh
+2024/01/03	15:25:31	94fcfffe-7f3b-4965-9e3c-2f58e9816fee	POST	undefined	/auth
+2024/01/03	15:26:16	955bec47-9ae6-4edd-af0e-4ff55e71bfb7	GET	undefined	/refresh
+2024/01/03	15:27:09	9a49527b-c707-4157-a44a-1cc57968c55d	POST	undefined	/auth
+2024/01/03	15:27:25	742dccde-eb47-489a-895b-c529b3719cfa	GET	undefined	/refresh
