@@ -1,20 +1,14 @@
-// Cross Origin Ressource Sharing 
+const allowedOrigins = require('./allowedOrigins');
 
-const whiteliste = [
-    'https://www.yoursite.com',
-    'http://127.0.0.1:5500',
-    'http://localhost:3500'
-];
-
-const corsOption = {
+const corsOptions = {
     origin: (origin, callback) => {
-        if (whiteliste.indexOf(origin) !== -1 || !origin) {
+        if (allowedOrigins.indexOf(origin) !== -1 || !origin) {
             callback(null, true)
         } else {
             callback(new Error('Not allowed by CORS'));
         }
     },
-    optionsSucessStatus: 200
+    optionsSuccessStatus: 200
 }
 
-module.exports = corsOption;
+module.exports = corsOptions;

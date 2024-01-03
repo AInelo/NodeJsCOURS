@@ -1,26 +1,25 @@
 {
-  "name": "08tut",
+  "name": "12tut",
   "version": "1.0.0",
-  "description": "Middleware tutorial",
-  "main": "index.js",
+  "description": "Express tutorial",
+  "main": "server.js",
   "scripts": {
     "start": "node server",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon server"
   },
-  "author": "TOTON Lionel",
+  "author": "Dave Gray",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^5.1.1",
-    "cookie-parser": "^1.4.6",
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
-    "date-fns": "^2.30.0",
-    "dotenv": "^16.3.1",
-    "express": "^4.18.2",
-    "jsonwebtoken": "^9.0.2",
-    "uuid": "^9.0.1"
+    "date-fns": "^2.23.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "nodemon": "^2.0.12"
   }
 }
