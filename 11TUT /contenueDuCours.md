@@ -10,6 +10,7 @@ npm i dotenv jsonwebtoken cookie-parser
 node
 ```
 
+
 ```bash
 require('crypto').randomBytes(64).toString('hex')
 ```
@@ -27,3 +28,5 @@ app.use(verifyJWT);
 app.use('/employees', require('./routes/api/employees'));
 
 ```
+
+
