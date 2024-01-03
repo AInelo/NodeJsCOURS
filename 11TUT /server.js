@@ -11,7 +11,6 @@ const cookieParser = require('cookie-parser')
 const PORT = process.env.PORT || 3500;
 
 
-
 // custom middleware loger 
 app.use(logger);
 
@@ -66,3 +65,4 @@ app.use(errorHandler);
 app.listen(PORT, () => console.log(`Le serveur tourne sur ${PORT}`));
 
 //myEmitter.emit('log', 'Log event emitted');
+
