@@ -26,7 +26,7 @@ app.use(express.json());
 
 
 // middlewaare for cookies
-
+app.use(cookieParser())
 
 
 // serve static files 
