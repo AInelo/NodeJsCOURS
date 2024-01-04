@@ -2,6 +2,22 @@
 
 Comprendre la gestion des rôles utilisateur et l'autorisation dans Node.js implique généralement l'utilisation de JSON Web Tokens (JWT) pour l'authentification. Voici un guide simple qui vous donne une idée pratique de la façon de mettre en œuvre des rôles utilisateur et l'autorisation dans une application Node.js.
 
+## A quoi cela sert 
+
+Contrôle d'accès : L'autorisation permet de déterminer quelles parties de votre application un utilisateur a le droit d'accéder. Les rôles peuvent être utilisés pour définir des niveaux d'accès différents en fonction du type d'utilisateur (administrateur, utilisateur normal, etc.).
+
+1. Sécurité : En utilisant des rôles et des autorisations, vous pouvez restreindre l'accès à certaines fonctionnalités ou données sensibles, assurant ainsi que seuls les utilisateurs autorisés peuvent effectuer des actions spécifiques.
+
+2. Protection des données : Vous pouvez utiliser les rôles pour spécifier quelles données un utilisateur est autorisé à voir ou à modifier. Cela est particulièrement important dans les applications où différents utilisateurs ont des niveaux d'accès différents à des informations.
+
+3. Conformité aux normes de sécurité : Dans de nombreux secteurs, il est obligatoire de mettre en place des contrôles d'accès stricts pour garantir la confidentialité et la sécurité des données. La gestion des rôles et de l'autorisation aide à respecter ces normes.
+
+4. Personnalisation de l'expérience utilisateur : Vous pouvez adapter l'expérience utilisateur en fonction des rôles, en affichant différentes fonctionnalités ou interfaces en fonction du type d'utilisateur. Par exemple, un administrateur peut avoir accès à un tableau de bord avancé par rapport à un utilisateur standard.
+
+5. Audit et traçabilité : En attribuant des rôles spécifiques à chaque utilisateur, vous pouvez suivre et auditer les actions effectuées par ces utilisateurs dans l'application. Cela peut être utile pour le débogage, la conformité aux réglementations et la détection d'activités suspectes.
+
+
+# EXEMPLE
 Supposons que vous ayez déjà mis en place l'authentification avec JWT dans votre application Node.js. Si ce n'est pas le cas, vous pouvez utiliser des bibliothèques telles que jsonwebtoken et express pour cela. Assurez-vous d'avoir ces dépendances installées.
 
 ## Étape 1: Configuration de l'authentification avec JWT
@@ -64,3 +80,7 @@ app.listen(PORT, () => {
 
 ```
 
+
+## Étape 2: Utilisation des rôles pour l'autorisation
+
+Dans cet exemple, nous avons un endpoint /protected qui nécessite à la fois l'authentification et l'autorisation. L'utilisateur obtient un rôle lors de la connexion (admin dans cet exemple). Lorsqu'un utilisateur tente d'accéder à l'endpoint /protected, nous vérifions si son rôle lui donne l'autorisation d'accéder à cette ressource.
