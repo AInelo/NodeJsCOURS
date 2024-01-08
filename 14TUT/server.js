@@ -66,9 +66,8 @@ app.all('*', (req, res) => {
 
 app.use(errorHandler);
 
-
 // to Connect forcely the DB before any operation
 mongoose.connection.once('open', () => {
     console.log('Connected to MOngoDB');
     app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
-} )
+})

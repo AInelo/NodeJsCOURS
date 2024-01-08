@@ -25,5 +25,5 @@ module.exports = mongoose.model('Employee', employeeSchema);
 ```
 
 ## Etapes suivante 
-Après avoir créer le Schema dans le répertoire model, 
+Après avoir créer le "Schema" dans le répertoire model, 
 on utilise le Scheman dans un des controller
