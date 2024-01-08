@@ -31,3 +31,14 @@
 20240108	00:37:20	dc465185-9f35-44cf-bb9d-e6276d35c7f7	POST	undefined	/register
 20240108	00:38:10	de706e10-c431-47be-af80-4d8ddd8c50ed	POST	undefined	/register
 20240108	10:09:25	13c1ef50-8a8a-4560-8add-9ffc137b8738	POST	undefined	/register
+20240108	10:38:06	0f0a9fff-957f-4751-8757-6f6fae896571	POST	undefined	/auth
+20240108	10:45:14	8b53a56a-fbab-472c-81e5-5b0ae383a447	POST	undefined	/auth
+20240108	10:45:27	1fb2510b-3554-4f2a-ac1a-9f70d48791cf	POST	undefined	/refresh
+20240108	10:47:58	45911974-c7d2-4206-affc-88c304871b5d	POST	undefined	/auth
+20240108	10:48:03	6f4d4865-03af-4e99-b4a9-2bc693609573	POST	undefined	/refresh
+20240108	10:48:29	45df4a2c-99f0-405f-9f80-5b99b5064d81	POST	undefined	/refresh
+20240108	10:48:42	cc6d6350-4cc5-449c-bcad-c0cd99bbd513	POST	undefined	/auth
+20240108	10:48:59	359c7647-0040-44ba-b81d-a085ca2affda	POST	undefined	/refresh
+20240108	10:50:02	bf09513a-5d2d-4f84-8268-66ee8898d9e8	POST	undefined	/auth
+20240108	10:50:12	df934e99-c7dc-411d-bfe8-a0f337f58af8	POST	undefined	/refresh
+20240108	10:50:31	96b961c7-92ed-4e0f-a7f7-08f862bf0084	POST	undefined	/refresh
